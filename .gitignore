@@ -1,0 +1,9 @@
+# IDE Files
+.idea
+
+# NPM stuff
+node_modules
+npm-debug.log
+
+# Build artifacts
+build
