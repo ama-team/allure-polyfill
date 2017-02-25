@@ -1,6 +1,6 @@
 {
   "name": "@ama-team/allure-polyfill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package to stub allure global object if it is missing",
   "main": "lib/index.js",
   "scripts": {
