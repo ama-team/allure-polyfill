@@ -12,7 +12,7 @@ test:
     - 'npm run test:report'
     - npm run doc
     # in case tag is pushed, coveralls will try to find current branch and will end on master
-    - [ -z "$CIRCLE_BRANCH" ] || 'npm run test:report:publish'
+    - '[ -z "$CIRCLE_BRANCH" ] || npm run test:report:publish'
     - mkdir -p $CIRCLE_TEST_REPORTS/junit
     - cp build/data/xunit/junit.xml $CIRCLE_TEST_REPORTS/junit/junit.xml
     - cp -r build/* $CIRCLE_ARTIFACTS/
