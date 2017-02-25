@@ -43,14 +43,14 @@ Things like that should not happen once 1.0.0 is released.
 
 ### Master branch
 
-[![CircleCI master branch](https://img.shields.io/circleci/project/github/ama-team/allure-polyfill/master.svg?style=flat-square)](https://circleci.com/gh/ama-team/voxengine-sdk/tree/master)
+[![CircleCI master branch](https://img.shields.io/circleci/project/github/ama-team/allure-polyfill/master.svg?style=flat-square)](https://circleci.com/gh/ama-team/allure-polyfill/tree/master)
 [![Coveralls master branch](https://img.shields.io/coveralls/ama-team/allure-polyfill/master.svg?style=flat-square)](https://coveralls.io/github/ama-team/allure-polyfill?branch=master)
 [![Code Climate](https://img.shields.io/codeclimate/github/ama-team/allure-polyfill.svg?style=flat-square)](https://codeclimate.com/github/ama-team/allure-polyfill)
 [![Code Climate](https://img.shields.io/codeclimate/issues/github/ama-team/allure-polyfill.svg?style=flat-square)](https://codeclimate.com/github/ama-team/allure-polyfill)
 
 ### Dev branch
 
-[![CircleCI dev branch](https://img.shields.io/circleci/project/github/ama-team/allure-polyfill/dev.svg?style=flat-square)](https://circleci.com/gh/ama-team/voxengine-sdk/tree/dev)
+[![CircleCI dev branch](https://img.shields.io/circleci/project/github/ama-team/allure-polyfill/dev.svg?style=flat-square)](https://circleci.com/gh/ama-team/allure-polyfill/tree/dev)
 [![Coveralls dev branch](https://img.shields.io/coveralls/ama-team/allure-polyfill/dev.svg?style=flat-square)](https://coveralls.io/github/ama-team/allure-polyfill?branch=dev)
 
   [Allure Framework]: http://allure.qatools.ru/
