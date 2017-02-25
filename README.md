@@ -14,6 +14,20 @@ however, other Allure integrations should have the very same API.
 npm i @ama-team/allure-polyfill -D
 ```
 
+## Usage
+
+With dumping every action to `console.log`:
+
+```js
+require('@ama-team/allure-polyfill').ensure();
+```
+With silent data discard:
+
+```js
+var polyfill = require('@ama-team/allure-polyfill');
+polyfill.ensure(new polyfill.sink.BlackHole());
+```
+
 ## Versioning
 
 I'm not as familiar with Allure as i wish, so, probably, the API would

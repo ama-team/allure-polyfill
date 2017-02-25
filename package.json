@@ -4,7 +4,12 @@
   "description": "A package to stub allure global object if it is missing",
   "main": "lib/index.js",
   "scripts": {
-    "test": "istanbul cover node_modules/.bin/_mocha"
+    "test": "istanbul cover node_modules/.bin/_mocha",
+    "test:report": "npm run test:report:allure",
+    "test:report:allure": "allure generate -o build/report/allure -- build/data/allure",
+    "test:report:pubish": "npm run test:report:publish:coverage",
+    "test:report:publish:coverage": "cat build/report/coverage/lcov.info | node_modules/.bin/coveralls",
+    "doc": "node_modules/.bin/jsdoc lib -d build/doc"
   },
   "repository": {
     "type": "git",
@@ -18,11 +23,15 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.16",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "mocha-allure-reporter": "^1.2.4",
     "mocha-junit-reporter": "^1.13.0",
     "mocha-multi-reporters": "^1.1.3",
     "sinon": "^1.17.7"
+  },
+  "dependencies": {
+    "indent-string": "^3.1.0"
   }
 }
