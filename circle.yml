@@ -3,10 +3,6 @@ machine:
     - sudo apt-add-repository ppa:yandex-qatools/allure-framework -y
     - sudo apt-get update -yq
     - sudo apt-get install allure-commandline -yq
-general:
-  artifacts:
-    - build/report
-    - build/data
 test:
   post:
     - 'npm run test:report'
